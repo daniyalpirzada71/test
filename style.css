@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    
+    background: linear-gradient(to right,#FFF3D4, #ffffff);
+
+   color: #333;
+   
+}
+
+/* Navbar css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: transparent;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo-bar {
+    width: 4px;
+    height: 20px;
+    border-radius: 2px;
+}
+.logo-bar.yellow { background-color: #FFC107; }
+.logo-bar.pink { background-color: #E91E63; }
+.logo-bar.blue { background-color: #00BCD4; }
+
+.links a {
+    text-decoration: none;
+    color: #4A4A4A;
+    margin: 0 15px;
+    font-weight: 500;
+   
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-contact {
+    text-decoration: none;
+    background-color: #FFB74D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: 500;
+   
+}
+.social-icons a {
+    color: #555;
+    margin-left: 10px;
+    font-size: 18px;
+  
+}
+
+
+
+/* Hero Section css */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    min-height: 80vh;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+.btn-started {
+    text-decoration: none;
+    background: linear-gradient(to right, #FF5252, #FFB74D);
+    color: white;
+    padding: 14px 35px;
+    border-radius: 25px;
+    font-weight: 600;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(255, 82, 82, 0.3);
+   
+}
+.hero-image {
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+ .hero-image img {
+    max-width: 100%;
+   
+}
